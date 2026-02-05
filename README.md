@@ -10,6 +10,6 @@ This is a fundamental project to understand how HTTP servers, Routing, and JSON 
 - Sending JSON data to the client.
 
 ## How to run
-1. Clone the repo
+1. Clone the repo.
 2. Run `node server.js`
 3. Visit `http://localhost:3000/goal`
