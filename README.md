@@ -1,4 +1,4 @@
-# Raw Node.js API Concept
+# Raw Node.js API Concept.
 
 This is a fundamental project to understand how HTTP servers, Routing, and JSON responses work in Node.js **without using any frameworks** like Express.
 
