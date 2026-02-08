@@ -13,4 +13,6 @@ This is a fundamental project to understand how HTTP servers, Routing, and JSON 
 1. Clone the repo.
 2. Run `node server.js`
 3. Visit `http://localhost:3000/goal`
+
+4. ## Little Insight of a Request on Postman
 ![](https://github.com/freemandjomo/First_API-/blob/main/Pic%20of%20an%20API.png)
