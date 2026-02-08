@@ -1,13 +1,11 @@
 const http = require('http');
 
-const PORT = 3000;
+const PORT = 1200;
 
 const server = http.createServer((req, res) => {
-    // Set Header to return JSON
-    res.writeHead(200, { 'Content-Type': 'application/json' });
-
     // Routing Logic (Raw Node.js without Frameworks)
     if (req.url === '/goal') {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
         const goal = {
             target: "Switzerland",
             role: "Senior Backend Engineer",
@@ -16,6 +14,7 @@ const server = http.createServer((req, res) => {
         };
         res.end(JSON.stringify(goal));
     } else if (req.url === '/status') {
+        res.writeHead(200, { 'Content-Type': 'application/json' });
         const status = {
             system: "Node.js Server",
             uptime: process.uptime(),
