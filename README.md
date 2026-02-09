@@ -2,7 +2,7 @@
 
 This is a fundamental project to understand how HTTP servers, Routing, and JSON responses work in Node.js **without using any frameworks** like Express.
 
-## What I learned .
+## What I learned 
 - Creating a server with the `http` module.
 - Handling Request and Response streams.
 - Manual Routing logic using `if/else`.
