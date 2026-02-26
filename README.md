@@ -11,7 +11,7 @@ This is a fundamental project to understand how HTTP servers, Routing, and JSON 
 
 ## How to run
 1. Clone the repo.
-2. Run `node server.js`
+2. Run `node server.js`...
 3. Visit `http://localhost:3000/goal`
 
 ## Little Insight of a Request on Postman
